@@ -1,0 +1,28 @@
+{
+  "cacheVersion": "D20210525T193831",
+  "outputFile": "/home/rad/nimbedded/bbstrap/bblink",
+  "compile": [
+    [
+      "/home/rad/nimbedded/bbstrap/ccode/@mbblink.nim.c",
+      "arm-none-eabi-gcc -c  -w -fmax-errors=3 -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F3 -DDEBUG -DSTM32F303RETx -DNUCLEO_F303RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb   -I/home/rad/.choosenim/toolchains/nim-1.6.0/lib -I/home/rad/nimbedded/bbstrap -o /home/rad/nimbedded/bbstrap/ccode/@mbblink.nim.c.o /home/rad/nimbedded/bbstrap/ccode/@mbblink.nim.c"
+    ]
+  ],
+  "link": [
+    "/home/rad/nimbedded/bbstrap/ccode/stdlib_system.nim.c.o",
+    "/home/rad/nimbedded/bbstrap/ccode/@mbblink.nim.c.o"
+  ],
+  "linkcmd": "arm-none-eabi-gcc   -o /home/rad/nimbedded/bbstrap/bblink /home/rad/nimbedded/bbstrap/ccode/stdlib_system.nim.c.o /home/rad/nimbedded/bbstrap/ccode/@mbblink.nim.c.o    -ldl",
+  "extraCmds": [],
+  "configFiles": [
+    "/home/rad/.choosenim/toolchains/nim-1.6.0/config/nim.cfg",
+    "/home/rad/.choosenim/toolchains/nim-1.6.0/config/config.nims",
+    "/home/rad/nimbedded/bbstrap/config.nims"
+  ],
+  "stdinInput": false,
+  "projectIsCmd": false,
+  "cmdInput": "",
+  "currentDir": "/home/rad/nimbedded/bbstrap",
+  "cmdline": "",
+  "depfiles": [],
+  "nimexe": ""
+}

@@ -1,0 +1,9 @@
+@mbblink.nim.c:61:15:initLed_bblink_67	24	static
+@mbblink.nim.c:75:8:nimSubInt	32	static
+@mbblink.nim.c:98:15:go_bblink_103	24	static
+@mbblink.nim.c:120:20:PreMainInner	4	static
+@mbblink.nim.c:126:20:PreMain	16	static
+@mbblink.nim.c:134:15:NimMainInner	8	static
+@mbblink.nim.c:138:1:NimMain	16	static
+@mbblink.nim.c:145:5:main	24	static
+@mbblink.nim.c:153:15:NimMainModule	8	static
