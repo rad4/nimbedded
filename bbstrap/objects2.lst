@@ -1,0 +1,3 @@
+"ccode/@mbblink.nim.c.o"
+"ccode/startup_stm32f303retx.o"
+"ccode/stdlib_system.nim.c.o"
